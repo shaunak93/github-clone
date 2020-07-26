@@ -8,16 +8,16 @@ function Header() {
 		<div className="header-item">
 			<input type="text" className="header-search-box" placeholder="Search or jump to..."></input>
 		</div>
-		<div className="header-item">
+		<div className="header-item hide-for-mobile">
 			<a className="header-tab-a" href="/">Pulls</a>
 		</div>
-		<div className="header-item">
+		<div className="header-item hide-for-mobile">
 			<a className="header-tab-a" href="/">Issues</a>
 		</div>
-		<div className="header-item">
+		<div className="header-item hide-for-mobile">
 			<a className="header-tab-a" href="/">Marketplace</a>
 		</div>
-		<div className="header-item">
+		<div className="header-item hide-for-mobile">
 			<a className="header-tab-a" href="/">Explore</a>
 		</div>
 		<div className="header-item" style={{color: '#fff', marginLeft: 'auto'}}>

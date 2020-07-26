@@ -29,3 +29,9 @@ header{
 	font-weight: 700;
 	font-size: 15px;
 }
+
+@media (max-width: 767px){
+	.hide-for-mobile{
+		display: none;
+	}
+}
