@@ -1,0 +1,31 @@
+header{
+	height: 53px;
+	background-color: #24292E;
+	padding: 0 16px;
+	display: flex;
+}
+
+.header-item{
+	margin-right: 16px;
+	display: flex;
+	align-items: center;
+}
+
+.header-search-box{
+	height: 28px;
+	width: 272px;
+	padding: 0 !important;
+	background-color: #3F4448;
+	border-radius: 4px;
+	border: none;
+}
+.header-search-box::placeholder{
+	color: white;
+	padding-left: 5px;
+}
+
+.header-tab-a{
+	color: white;
+	font-weight: 700;
+	font-size: 15px;
+}

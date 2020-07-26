@@ -1,0 +1,136 @@
+.repositories-view-container{
+
+}
+.repositories-form{
+	padding: 16px 0;
+    height: 32px;
+	display: flex;
+	border-bottom: 1px solid #E1E4E8;
+}
+.repositories-form div{
+	width: calc(50% - 10px);
+}
+.repositories-form div:nth-child(1){
+	margin-right: 10px;
+}
+.repositories-form div:nth-child(2){
+	margin-left: 10px;
+}
+.repositories-form input{
+	width: calc(100% - 24px);
+    padding: 5px 12px;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: inset 0 1px 0 rgba(225,228,232,.2);
+}
+.repositories-form input::placeholder{
+	color: white;
+	padding-left: 5px;
+}
+.repositories-form select{
+	width: calc(50% - 5px);
+	position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.repositories-form select:nth-child(1){
+	margin-right: 5px;
+}
+.repositories-form select:nth-child(2){
+	margin-left: 5px;
+}
+.repositories-form select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.repositories-list{
+
+}
+.repository-list-item{
+	display: flex;
+	padding: 24px 0;
+	border-bottom: 1px solid #E1E4E8;
+}
+.repository-details-container{
+	width: calc(100% - 100px);
+	text-align: left;
+}
+.repository-details-container h3{
+	font-weight: 600;
+	font-size: 20px;
+	color: #0366D6;
+	margin: 0;
+}
+.fork-details{
+	font-size: 12px;
+}
+.fork-details p{
+	margin: 2px 0 8px 0;
+}
+
+.repo-description{
+	font-size: 14px;
+}
+.repo-description p{
+	width: 75%;
+	margin: 10px auto 8px 0;
+}
+
+.repository-details-container .repository-details{
+	height: 18px;
+	padding: 8px 0 0 0;
+	font-size: 12px;
+	display: flex;
+}
+ .repository-details div{
+	 margin-right: 20px;
+ }
+.repository-details .dot{
+	height: 12px;
+	  width: 12px;
+	  background-color: grey;
+	  border-radius: 50%;
+	  display: inline-block;
+}
+.repository-star-container{
+	width: 100px;
+	margin: auto;
+}
+.repository-star-container button{
+	width: 70px;
+	height: 28px;
+	font-size: 12px;
+    line-height: 20px;
+    color: #24292e;
+    background-color: #fafbfc;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: rgba(27,31,35,.15);
+}

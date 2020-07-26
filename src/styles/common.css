@@ -1,0 +1,50 @@
+.error-panel-container{
+	height: 200px;
+    font-size: 65px;
+    padding-top: 50px;
+    color: #C50806;
+}
+
+.loader-container{
+	height: 200px;
+    padding: 50px;
+    font-size: 65px;
+    color: #a1a4a8;
+}
+
+.loader-container i {
+	-webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.work-under-progress-container{
+	height: calc(100% - 50px);
+	padding: 20px 10px;
+}
+
+.work-under-progress{
+	width: 0px;
+    height: 0px;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 190px solid #000;
+	margin: auto;
+}
+
+.work-under-progress i{
+	padding-top: 53px;
+	color: #FFCB01;
+	font-size: 90px;
+	margin-left: -44px;
+}
+.work-under-progress p{
+	color: #FFCB01;
+    width: 160px;
+    margin-left: -78px;
+	ont-weight: 500;
+}
